@@ -98,7 +98,7 @@
                                         <rect key="frame" x="0.0" y="58" width="315" height="22"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.87" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="18"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBa-VP-foZ" customClass="LoginUIButton" customModule="FirebaseSocial" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="100" width="315" height="34"/>
@@ -107,6 +107,9 @@
                                         <state key="normal" title="Login">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="loginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PDS-p7-gDb"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -135,7 +138,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="txtPassword" destination="6if-ar-8Wi" id="oLv-Zb-0kf"/>
+                        <outlet property="txtEmail" destination="g2X-Xa-58C" id="egv-WG-haI"/>
+                        <outlet property="txtPassword" destination="6if-ar-8Wi" id="w2a-5U-Lpp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
