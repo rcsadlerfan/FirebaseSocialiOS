@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		941458A5207E30D300C74B64 /* ShadowUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941458A4207E30D300C74B64 /* ShadowUIView.swift */; };
+		941458A8207E324000C74B64 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941458A7207E324000C74B64 /* Constants.swift */; };
+		941458AB207E349B00C74B64 /* RoundUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941458AA207E349B00C74B64 /* RoundUIButton.swift */; };
+		941458AD207E368800C74B64 /* CustomUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941458AC207E368800C74B64 /* CustomUITextField.swift */; };
+		941458B0207E380300C74B64 /* LoginUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941458AF207E380300C74B64 /* LoginUIButton.swift */; };
 		94663F62207D8B5100D998BA /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94663F61207D8B5100D998BA /* Roboto-Regular.ttf */; };
 		94663F64207D8EBF00D998BA /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94663F63207D8EBE00D998BA /* Roboto-Light.ttf */; };
 		94DC5F16207D8700009C3AD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC5F15207D8700009C3AD0 /* AppDelegate.swift */; };
@@ -22,6 +27,11 @@
 		0560EA9143EE415F39604590 /* Pods-FirebaseSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSocial/Pods-FirebaseSocial.release.xcconfig"; sourceTree = "<group>"; };
 		22B38012D85E2CDF4474D0B7 /* Pods_FirebaseSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC174E1F7A78F651471B12B /* Pods-FirebaseSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSocial/Pods-FirebaseSocial.debug.xcconfig"; sourceTree = "<group>"; };
+		941458A4207E30D300C74B64 /* ShadowUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowUIView.swift; sourceTree = "<group>"; };
+		941458A7207E324000C74B64 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		941458AA207E349B00C74B64 /* RoundUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundUIButton.swift; sourceTree = "<group>"; };
+		941458AC207E368800C74B64 /* CustomUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUITextField.swift; sourceTree = "<group>"; };
+		941458AF207E380300C74B64 /* LoginUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUIButton.swift; sourceTree = "<group>"; };
 		94663F61207D8B5100D998BA /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../../Library/Fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		94663F63207D8EBE00D998BA /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		94DC5F12207D8700009C3AD0 /* FirebaseSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		941458A6207E322C00C74B64 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				941458A7207E324000C74B64 /* Constants.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		94663F5D207D879100D998BA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +75,10 @@
 		94663F5E207D879700D998BA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				941458A4207E30D300C74B64 /* ShadowUIView.swift */,
+				941458AA207E349B00C74B64 /* RoundUIButton.swift */,
+				941458AC207E368800C74B64 /* CustomUITextField.swift */,
+				941458AF207E380300C74B64 /* LoginUIButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -89,6 +111,7 @@
 		94DC5F14207D8700009C3AD0 /* FirebaseSocial */ = {
 			isa = PBXGroup;
 			children = (
+				941458A6207E322C00C74B64 /* Util */,
 				94663F5F207D879A00D998BA /* Model */,
 				94663F5E207D879700D998BA /* View */,
 				94663F5D207D879100D998BA /* Controller */,
@@ -242,8 +265,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				941458AB207E349B00C74B64 /* RoundUIButton.swift in Sources */,
+				941458A5207E30D300C74B64 /* ShadowUIView.swift in Sources */,
+				941458B0207E380300C74B64 /* LoginUIButton.swift in Sources */,
 				94DC5F18207D8700009C3AD0 /* LoginViewController.swift in Sources */,
 				94DC5F16207D8700009C3AD0 /* AppDelegate.swift in Sources */,
+				941458AD207E368800C74B64 /* CustomUITextField.swift in Sources */,
+				941458A8207E324000C74B64 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
